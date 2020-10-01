@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "dilma-lula",
-    "slug": "dilma-lula",
+    "name": "Dilma-e-Lula",
+    "slug": "Dilma-e-Lula",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,10 +17,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jcalvez.DilmaeLula"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.jcalvez.DilmaeLula"
     }
   }
 }
